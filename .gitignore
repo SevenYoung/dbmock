@@ -1,0 +1,62 @@
+*.releaseBackup
+*.ear
+*.class
+tesla.client.sentrycache.data
+# eclipse specific git ignore
+*.pydevproject
+.project
+.metadata
+.settings/
+.classpath
+.springBeans
+
+
+local.properties
+.loadpath
+
+# maven ignore
+target/
+*.jar
+*.war
+*.zip
+*.tar
+*.tar.gz
+
+# eclipse ignore
+# idea ignore
+.idea/
+*.ipr
+*.iml
+*.iws
+
+# temp ignore
+*.log
+*.cache
+*.diff
+*.patch
+*.tmp
+*.swp
+*~.nib
+
+# log ignore
+logs/
+
+# system ignore
+.DS_Store
+Thumbs.db
+
+# External tool builders
+.externalToolBuilders/
+
+worker.level.db
+metastore_db/
+jarvis-web/tesla.server.sentrycache.data
+
+#conf ignore
+conf/
+jarvis-rest/src/main/resources/rest.properties
+jarvis-server/src/main/resources/server.properties
+jarvis-worker/src/main/resources/worker.properties
+tools/jarvis-tools/src/main/resources/config.properties
+src/main/resources/
+src/test/
