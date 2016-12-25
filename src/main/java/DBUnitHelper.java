@@ -1,5 +1,3 @@
-package com.mogujie.bigdata;
-
 import com.google.common.collect.Lists;
 import org.dbunit.Assertion;
 import org.dbunit.IDatabaseTester;
@@ -21,13 +19,6 @@ import java.sql.Statement;
 import java.util.List;
 
 
-/**
- * 蘑菇街 Inc.
- * Copyright (c) 2010-2016 All Rights Reserved.
- * <p>
- * Author: YanXun
- * Date: 16/12/9-下午5:48
- */
 public class DBUnitHelper {
     private static IDatabaseTester databaseTester;
     private static IDatabaseConnection connection;

@@ -1,5 +1,3 @@
-package com.mogujie.bigdata;
-
 import org.h2.tools.RunScript;
 
 import java.io.IOException;
@@ -8,13 +6,6 @@ import java.util.Properties;
 
 import static org.h2.engine.Constants.UTF8;
 
-/**
- * 蘑菇街 Inc.
- * Copyright (c) 2010-2016 All Rights Reserved.
- * <p>
- * Author: YanXun
- * Date: 16/12/9-上午11:56
- */
 public class InMemDBInitializer {
 
     private static Properties properties = new Properties();
